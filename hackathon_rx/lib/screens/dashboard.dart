@@ -15,9 +15,10 @@ class _DashboardState extends State<Dashboard> {
 
   int pageNumber = 1;
   List<Widget> pages=[
-    MealPlanner(),
-    ChatBot(),
     CalorieCounter(),
+    ChatBot(),
+    MealPlanner(),
+
   ];
 
   @override
@@ -39,7 +40,7 @@ class _DashboardState extends State<Dashboard> {
           items: <Widget>[
             Icon(Icons.fastfood),
             Icon(Icons.adb),
-            Icon(Icons.add_to_queue),
+            Icon(Icons.event_note),
           ],
           onTap: (index){
             setState(() {

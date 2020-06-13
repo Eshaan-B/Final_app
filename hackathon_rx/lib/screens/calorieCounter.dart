@@ -22,7 +22,7 @@ class _CalorieCounterState extends State<CalorieCounter> {
   var calories=0.0;
   var fat= 0.0;
   var sugar=0.0;
-
+//https://api.spoonacular.com/recipes/complexSearch?apiKey=37858fd40dd048ce9a36c24155d78cd0&query=pizza&minCalories=50&number=1
   void getData(String query) async {
     NetworkHelper networkHelper = NetworkHelper(url:_url+_apiKey+'&query='+query+'&minFat=25&minCalories=50&minCarbs=10&minSugar=0&number=1');
     var response = await networkHelper.getData();

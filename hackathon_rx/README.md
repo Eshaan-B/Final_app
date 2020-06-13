@@ -1,3 +1,3 @@
-# Integration(2)
+# Integration(3)
 
-In this commit, we resolved the spoonacular API and integrated the meal plan recommender to the menu
+In this commit we integrated the Chatbot to the menu and made it functional
